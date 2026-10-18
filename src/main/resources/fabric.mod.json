@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autobridge",
+  "version": "1.0.0",
+  "name": "AutoBridge",
+  "description": "Automatic speed bridging with any block.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["example.autobridge.AutoBridgeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~26.2",
+    "fabric-api": "*"
+  }
+}
